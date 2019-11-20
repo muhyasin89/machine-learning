@@ -9,6 +9,8 @@
 ####5 Methods of building model
   1.All-in
   2. Backward Elimination
-  3.Forward Selection
-  4.Bidirectional Elimination
+  3. Forward Selection
+  4. Bidirectional Elimination
   5. Score Comparision
+
+number 2,3,4 is Stepwise Regression
