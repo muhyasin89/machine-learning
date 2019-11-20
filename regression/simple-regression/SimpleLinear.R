@@ -33,7 +33,7 @@ Library(ggplot2)
 
 ggplot() + geom_point(aes(x=test_set$YearsExperience, y = test_set$Salary),
                       colour = 'red') + 
-  geom_line(aes(x = test_set$YearsExperience, y = predict(regressor, newdata = test_set)),
+  geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
             color= 'blue') +
   ggtitle('Salary vs Expectation (Test set)') +
   xlab("Year of experience") +
