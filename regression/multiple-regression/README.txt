@@ -29,3 +29,5 @@ number 2,3,4 is Stepwise Regression
    3. Consider Predictor with Highest P-Value
    4. Remove predictor
    5. Fit the model without this variable
+   
+   After step 5 go back to step 3
