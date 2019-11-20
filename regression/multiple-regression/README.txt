@@ -31,3 +31,5 @@ number 2,3,4 is Stepwise Regression
    5. Fit the model without this variable
    
    After step 5 go back to step 3
+
+  FIN: Your Fit Model
