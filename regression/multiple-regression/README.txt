@@ -7,10 +7,25 @@
   5.Lack of Multicollinearity
 
 ####5 Methods of building model
-  1.All-in
+  1. All-in
   2. Backward Elimination
   3. Forward Selection
   4. Bidirectional Elimination
   5. Score Comparision
 
 number 2,3,4 is Stepwise Regression
+
+1. All-in:
+   Method Where you include all variable
+   Criteria to do it:
+    1. You have prior knowledge in other word you know what you are doing
+    2. You have to or there is no other choice
+    3. Preparing for backward elimination
+    
+2. Backward Elimination
+   There is several step in backeward Elimination
+   1. Select significant level to stay in model
+   2. Fit the full model with all posible predictor
+   3. Consider Predictor with Highest P-Value
+   4. Remove predictor
+   5. Fit the model without this variable
